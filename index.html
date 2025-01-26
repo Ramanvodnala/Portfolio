@@ -1,88 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sai Ramana - Data Engineer</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <title>Portfolio - Sai Ramana</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
         <div class="container">
-            <h1>Sai Ramana</h1>
-            <p>Phone: (913)-666-5919 | Email: <a href="mailto:Sramanaa19@gmail.com">Sramanaa19@gmail.com</a> | LinkedIn: <a href="http://www.linkedin.com">LinkedIn</a></p>
+            <h1>Hi, I'm <span>Sai Ramana</span></h1>
+            <p>Data Engineer | Big Data Enthusiast | Problem Solver</p>
+            <div class="cta-buttons">
+                <a href="Resume.pdf" class="btn">Download Resume</a>
+            </div>
         </div>
     </header>
 
-    <section id="summary">
+    <!-- About Me Section -->
+    <section id="about">
         <div class="container">
-            <h2>Summary</h2>
-            <p>3 years of hands-on experience in designing, building, and maintaining data infrastructure and pipelines. Proficient in ETL processes, Python, SQL, and cloud technologies like Azure and GCP. Skilled in data modeling, analytics, and ensuring data integrity across systems.</p>
-        </div>
-    </section>
-
-    <section id="experience">
-        <div class="container">
-            <h2>Experience</h2>
-
-            <div class="job">
-                <h3>Data Engineer - BCBS, TX</h3>
-                <p><strong>August 2023 - Present</strong></p>
-                <ul>
-                    <li>Developed and maintained ETL pipelines using Azure Data Factory.</li>
-                    <li>Processed real-time data streams with Azure Databricks and Apache Spark.</li>
-                    <li>Designed scalable storage solutions in Azure Data Lake Storage.</li>
-                    <li>Utilized Azure Synapse Analytics for advanced data analytics.</li>
-                    <li>Created Power BI dashboards to visualize customer behavior trends.</li>
-                </ul>
-            </div>
-
-            <div class="job">
-                <h3>Data Engineer - Sarag Systems, India</h3>
-                <p><strong>January 2021 – July 2022</strong></p>
-                <ul>
-                    <li>Engineered efficient SQL queries and scripts for database optimization.</li>
-                    <li>Developed scalable ETL pipelines and implemented data integration workflows.</li>
-                    <li>Built event-driven systems with Google Pub/Sub and deployed microservices.</li>
-                    <li>Implemented dimensional data models with SCD and CDC processes.</li>
-                    <li>Executed data profiling and cleansing to ensure quality and integrity.</li>
-                </ul>
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a dedicated Data Engineer with 3 years of experience in designing, building, and maintaining data infrastructure and pipelines. Proficient in ETL processes, data modeling, and big data technologies. I thrive on optimizing workflows, improving data quality, and enabling data-driven decision-making. My expertise lies in tools like Azure Data Factory, Databricks, Spark, and Snowflake, complemented by a strong foundation in Python and SQL.
+                </p>
             </div>
         </div>
     </section>
 
+    <!-- Education Section -->
     <section id="education">
         <div class="container">
             <h2>Education</h2>
-            <ul>
-                <li><strong>Master’s in Computer Science</strong> - University of Central Missouri, Lees Summit, Missouri</li>
-                <li><strong>Bachelor’s in Computer Science</strong> - Jyothishmathi Institute of Technology and Science, Karimnagar, Telangana</li>
-            </ul>
+            <div class="education-item">
+                <h3>Master's in Computer Science</h3>
+                <p><strong>University:</strong> University of Central Missouri, Lees Summit, Missouri</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <p><strong>University:</strong> Jyothishmathi Institute of Technology and Science, Karimnagar, Telangana</p>
+            </div>
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Data Engineer</h3>
+                <p><strong>Company:</strong> BCBS, TX</p>
+                <p><strong>Duration:</strong> August 2023 - Present</p>
+                <p><strong>Key Contributions:</strong>
+                    <ul>
+                        <li>Developed and maintained ETL pipelines using Azure Data Factory, ensuring seamless data processing.</li>
+                        <li>Leveraged Azure Databricks with Spark for real-time data insights on customer behavior.</li>
+                        <li>Designed scalable data storage solutions in Azure Data Lake Storage.</li>
+                        <li>Utilized Azure Synapse Analytics for advanced data aggregation and reporting.</li>
+                        <li>Created Power BI dashboards for actionable insights into customer journey patterns.</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="experience-item">
+                <h3>Data Engineer</h3>
+                <p><strong>Company:</strong> Sarag Systems, India</p>
+                <p><strong>Duration:</strong> January 2021 - July 2022</p>
+                <p><strong>Key Contributions:</strong>
+                    <ul>
+                        <li>Developed and optimized SQL queries for complex database operations.</li>
+                        <li>Engineered scalable ETL pipelines and workflows using Apache Kafka, Hive, and Spark.</li>
+                        <li>Designed and implemented star and snowflake schema data models.</li>
+                        <li>Executed data cleansing operations using Python and SQL to ensure data integrity.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Please visit my LinkedIn profile for detailed project descriptions:</p>
+            <a href="http://www.linkedin.com" class="btn">View LinkedIn</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
     <section id="skills">
         <div class="container">
             <h2>Skills</h2>
-            <ul>
-                <li>Big Data Technologies: Apache Spark, Hadoop, Kafka, Hive, HBase</li>
-                <li>Cloud Platforms: Azure (Data Factory, Synapse Analytics, Databricks), GCP</li>
-                <li>Data Warehousing: Snowflake, Google BigQuery, Star/Snowflake Schema Design</li>
-                <li>ETL & Data Pipelines: Azure Data Factory, Apache Nifi</li>
-                <li>Programming Languages: Python, Scala, SQL, Spark SQL</li>
-                <li>Streaming Technologies: Apache Kafka, Spark Streaming</li>
-            </ul>
+            <div class="skills-grid">
+                <div class="skill">Azure Data Factory</div>
+                <div class="skill">Databricks</div>
+                <div class="skill">Python</div>
+                <div class="skill">SQL</div>
+                <div class="skill">Apache Spark</div>
+                <div class="skill">Snowflake</div>
+                <div class="skill">Data Modeling</div>
+                <div class="skill">Power BI</div>
+            </div>
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-item">
+                <p><strong>Phone:</strong> (913)-666-5919</p>
+            </div>
+            <div class="contact-item">
+                <p><strong>Email:</strong> <a href="mailto:Sramanaa19@gmail.com">Sramanaa19@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <p><strong>LinkedIn:</strong> <a href="http://www.linkedin.com">Sai Ramana</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Sai Ramana </p>
+            <p>&copy; Sai Ramana. All rights reserved.</p>
         </div>
     </footer>
 </body>
-
 </html>
